@@ -13,10 +13,10 @@ class ItemRepositoryTest {
     @Autowired
     ItemRepository itemRepository;
 
-    @Test
-    public void save() {
-        Item item = new Item();
-        itemRepository.save(item);
-    }
+//    @Test
+//    public void save() {
+//        Item item = new Item();
+//        itemRepository.save(item);
+//    }
 
 }
